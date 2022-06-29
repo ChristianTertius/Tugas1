@@ -495,3 +495,52 @@ footer p span {
   padding: 1rem 0;
 }
 /* adPage end */
+
+@media (max-width: 800px) {
+  .header #palingatas {
+    margin-left: 70px;
+    font-size: 30px;
+    /* margin-bottom: 19px; */
+  }
+  #navbar {
+    position: absolute;
+    margin-top: 90px;
+    text-align: center;
+    background-color: #010103;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: -42px;
+  }
+
+  #kata {
+    font-size: 39px;
+    text-align: center;
+  }
+
+  #kata2 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #kata3 {
+    text-align: center;
+  }
+
+  #kata4 {
+    text-align: center;
+  }
+
+  .header {
+    border: #010103;
+  }
+  #home {
+    background-position: left;
+  }
+  #kata3, #kata4{
+    margin-left: 40px;
+  }
+
+  #foot{
+    padding: 10px;
+  }
+}
